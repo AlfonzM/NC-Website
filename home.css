@@ -1,0 +1,287 @@
+@font-face{
+	font-family: 'Lobster';
+	src: url('fonts/lobster.otf');
+}
+
+@font-face{
+	font-family: 'QuicksandLight';
+	src: url('fonts/quicksandlight.otf');
+}
+
+@font-face{
+	font-family: 'QuicksandRegular';
+	src: url('fonts/quicksandregular.otf');
+}
+
+@font-face{
+	font-family: 'QuicksandBold';
+	src: url('fonts/quicksandbold.otf');
+}
+
+*{
+	font-family: QuicksandLight;
+}
+
+html, body{
+	overflow-x: hidden;
+}
+
+body{
+	padding-top: 70px;
+	margin: 0;
+}
+
+b{
+	font-family: QuicksandBold;
+}
+
+/* HEADER */
+#header img{
+	max-height: 70px;
+}
+
+#header{
+	line-height: 5em;
+}
+
+#header.navbar{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+	background-color: white;
+}
+
+#header .navbar-nav{
+	display: inline-block;
+	max-height: 70px;
+	overflow: hidden;
+}
+
+#header .navbar-nav li{
+	display: inline-block;
+	vertical-align: middle;
+
+	border-width: 1px;
+	border-image:  url('img/shadow-vertical.png') 0 0 0 1;
+}
+
+#header .navbar-nav li a{
+	display: block;
+
+}
+
+#header .navbar-brand,
+#header .navbar-nav li.asd a,
+#header button.navbar-toggle {
+    height: 70px;
+    line-height: 40px;
+    /*padding-top: 0;*/
+    /*vertical-align: middle;*/
+}
+
+#header .navbar-nav li img{
+	max-height: 15px;
+	margin-right: 5px;
+}
+
+#header .navbar-nav li a{
+	color: #B19F97;
+}
+
+#header .navbar-nav li.languages{
+	padding: 5px 0;
+}
+
+#header .navbar-nav li.languages a{
+	padding: 0;
+	padding-left: 12px;
+	font-size: 10px;
+	font-family: QuicksandRegular;
+}
+
+#header .navbar-nav li.languages a.selected{
+	color: red;
+}
+
+#header .navbar-brand{
+	margin: 0;
+	padding: 0;
+}
+
+#header button.navbar-toggle{
+	outline: none;
+	border: none;
+	color: #847870;
+	margin: 0;
+	border-radius: 0;
+}
+
+@media(max-width: 767px){
+	#header #navbarmenu{
+		margin-top: 70px;
+	}
+}
+
+/* GLOBAL / SECTIONS */
+
+.section-top-shadow{
+	position: absolute;
+	top:0;
+	text-align: center;
+	width: 100%;
+}
+
+.section-top-shadow img{
+	mix-blend-mode: multiply;
+	opacity: 0.5;
+}
+
+.section .section-container, .navbar .section-container{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+/* GENERAL */
+.section{
+	position: relative;
+	padding: 20px 0;
+	color: #8d827a;
+}
+
+.white-box{
+	margin-top: 10px;
+	box-shadow: 0px 2px 10px #ddd;
+}
+
+.white-box p{
+	padding: 8px 10px;
+}
+
+/* CAROUSEL */
+.section#carousel{
+	padding: 0;
+}
+
+.carousel-caption.caption{
+	text-align: left;
+	top: 50;
+	bottom: auto;
+	text-shadow: none;
+}
+
+.carousel-caption.caption h1,
+.carousel-caption.caption h2,
+.carousel-caption.caption h3 {
+	margin: 0;
+}
+
+.carousel-caption.caption h1{
+	font-size: 5vw;
+	color: #25282a;
+}
+
+.carousel-caption.caption h2,
+.carousel-caption.caption h3{
+	color: #FF0505;
+}
+
+
+.carousel-caption.caption h2{
+	font-family: Lobster;
+	font-size: 6.5vw;
+}
+
+.carousel-caption.caption h3{
+	margin-top: 10px;
+	font-size: 2.2vw;
+}
+
+
+/* SECTION 2 */
+#section2{
+	min-height: 210px;
+}
+
+#section2 h1{
+	padding-top: 40px;
+	font-size: 3.5em;
+}
+
+@media(max-width: 1199px){
+	#section2 h1{
+		font-size: 3.2em;
+		padding-top: 30px;
+	}
+}
+
+@media(max-width: 992px){
+	#section2 h1{
+		padding-top: 20px;
+		font-size: 2.6em;
+	}	
+}
+
+#section2 p{
+	font-family: Lobster;
+	font-size: 16pt;
+}
+
+#section2 p#hugo { color: #77c9b6; }
+#section2 p#olly { color: #f2af72; }
+#section2 p#william { color: #7b8ca8; }
+#section2 p#agathe { color: #f69e9f; }
+
+/* SECTION 3*/
+#section3 p{
+	font-size: 1em;
+	margin: 0;
+}
+
+#section3 .newproducts-item{
+	height: 300px;
+	background-size: cover;
+}
+
+#section3 .newproducts-item#tubebag {
+	background: url('img/tubebag.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+#section3 .newproducts-item#newapparel {
+	background: url('img/newapparel.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+#section3 .newproducts-item#lovelyolly {
+	background: url('img/lovelyolly.jpg') no-repeat center center; 
+	background-size: cover;
+}
+
+/* FOOTER */
+footer#footer{
+	color: #9f9086;
+	background-color: #d8d2cb;
+	margin-bottom:0;
+}
+
+footer#footer h4{
+	margin: 0;
+	margin-bottom: 0.5em;
+}
+
+footer#footer a{
+	color: #9f9086;
+	text-decoration: underline;
+}
+
+#bottom-nav-bar{
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+#bottom-nav-bar div{
+	border-left: 1px solid #9f9086;
+	letter-spacing: 1px;
+}
+
+footer img{
+	max-width: 30px;
+}
+

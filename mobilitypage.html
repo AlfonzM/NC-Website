@@ -1,0 +1,444 @@
+<html>
+
+<head>
+	<title>My Website</title>
+	<link href="mobility.css" type="text/css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script> 
+</head>
+
+<body>
+	<!-- FIXED SIDE NAVIGATION BUTONS -->
+	<div class="sidenav visible-lg">
+		<div class="sidenavbox" id="side-buy">
+			<div class="number">1</div>&nbsp;<img class="cart" src="img/cart.png"/><br>
+			<img class="shadow" src="img/shadow.png" style="max-width:50px;"/><br>
+			<div class="text">BUY</div>
+		</div>
+
+		<div class="sidenavbox" id="side-buy-gray">
+			<img class="cartgray" src="img/cart-gray.png"/><br>
+			<img class="shadow" src="img/shadow.png" style="max-width:50px;"/><br>
+			<div class="text">BUY</div>
+		</div>
+		<div class="sidenavbox" id="side-top">
+			<i class="fa fa-chevron-up fa-lg"></i><br>
+			<img class="shadow" src="img/shadow.png" style="max-width:50px;"/><br>
+			<div class="text">TOP</div>
+		</div>
+
+	</div>
+
+	<!-- NAVBAR -->
+	<div id="header" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid section-container">
+			<div class="row">
+				<!-- <div class="col-sm-1 col-lg-0"></div> -->
+				<div class="navbar-brand">
+					<div class="col-xs-11 col-sm-10 col-sm-offset-0 col-md-10 col-md-offset-1 col-lg-7 col-lg-offset-0">
+						<img src="img/logo.jpg"/>
+					</div>
+				</div>
+
+				<button type="button" class="navbar-toggle toggleButton" data-toggle="collapse" data-target="#navbarmenu">
+					<i class="fa fa-bars fa-2x"></i>
+				</button>
+
+				<div class="collapse navbar-collapse col-sm-offset-5 col-md-offset-6 col-lg-offset-7" id="navbarmenu">
+					<ul class="nav navbar-nav">
+						<li class="asd"><a href="#"><img src="img/logo-small.png"/> WORLD</a></li>
+						<li class="dropdown asd">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<!-- <li><a href="#">Product 1</a></li>
+								<li><a href="#">Product 2</a></li>
+								<li><a href="#">Product 3</a></li> -->
+							</ul>
+						<li  class="asd"><a href="#contact" data-toggle="modal"><img src="img/cart.png"/> CART</a></li>
+						</li>
+						<li class="languages">
+							<a href="#">FR</a>
+							<a href="#">KR</a>
+							<a href="#" class="selected">ENG</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- <div class="col-sm-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">nav</a></li>
+					</ul>
+				</div> -->
+
+				<!-- <ul class="nav navbar-nav navbar-right col-xs-5">
+					<li><a href="#">WORLD</a></li>
+					<li><a href="#">PRODUCTS</a></li>
+					<li><a href="#">LANG</a></li>
+				</ul> -->
+			</div>
+		</div>
+	</div>
+
+	<!-- SECTION 1 -->
+	<div id="section1" class="section">
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<div class="container-fluid section-container">
+			<div class="row">
+				<!-- <div class="col-xs-4 col-sm-2 col-sm-offset-1 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-0"> -->
+				<div class="col-xs-2 col-sm-offset-0 col-lg-offset-0">
+					<h1>Hugo</h1>
+					<h2>Flowing Fast</h2>
+					<img src="img/section1-1.jpg" class="img-responsive"><br>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-xs-12 cartButtonGrp">
+					<button class="btn btn-default cartButton left img">&nbsp;</button><button class="btn btn-default cartButton right">Add to cart</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- SECTION 2 -->
+	<div id="section2" class="section">
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<!-- insert carousel -->
+	</div>
+
+	<!-- SECTION 3 -->
+	<div id="section3" class="section">
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<div class="container-fluid section-container">
+			<div class="row">
+				<div class="col-xs-offset-2 col-sm-offset-0">
+					<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
+				</div>
+			</div>
+			<div class="row">
+				<!-- bike size L -->
+				<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+					<img src="img/section3-bike1.png" class="img-responsive" />
+				</div>
+				<!-- bike size M -->
+				<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+					<img src="img/section3-bike2.png" class="img-responsive" />
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<img src="img/section3-buttons.png" />
+			</div>
+		</div>	
+	</div>
+
+	<!-- SECTION 4 -->
+	<div id="section4" class="section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-lg-7">
+					<div class="row">
+						<div class="col-xs-6 col-sm-7 tile" id="tile1">
+							<h1>Hugo</h1>
+							<h2>Details</h2>
+						</div>
+						<div class="col-xs-6 col-sm-5 tile" id="tile2">
+							<div class="overlay-text">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 tile" id="tile3">
+							<div class="overlay-text">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-5">
+					<div class="row">
+						<div class="col-xs-5">
+							<div class="row tile" id="tile4">
+								<div class="overlay-text">
+									One sentence details. Lorem ipsum dolor sit amet.
+								</div>
+							</div>
+							<div class="row tile" id="tile5">
+								<div class="overlay-text">
+									One sentence details. Lorem ipsum dolor sit amet.
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-7" style="background-color: #999;" id="tile6">
+								<div class="overlay-text">
+									One sentence details. Lorem ipsum dolor sit amet.
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+	</div>
+
+	<!-- SECTION 5 -->
+	<div id="section5" class="section">
+		<!-- <div class="col-xs-6 left"></div> -->
+		<div class="col-xs-offset-7 col-sm-5 col-lg-6 col-lg-offset-6 right">
+			<div class="col-xs-11 col-xs-offset-1">
+				<h1>Hugo</h1>
+				<h2>Designed in<br/>France</h2>
+				<p>Seasonal colorful bicycle:<br/>Bicycle cosmetic change according to fashion trends.</p>
+				<p>Safe without aesthetic compromise<br>Our bicycles are equipped with breaking system and both fixed gear and free wheel mode.</p>
+				<p>One couple, two dimensions<br>Two bicycle sizes that everyone can cycle on Hugo.</p>
+			</div>
+
+		</div>
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+	</div>
+
+	<!-- SECTION 6 -->
+	<div id="section6" class="section">
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<div class="container-fluid section-container">
+			<div class="row">
+				<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1 col-lg-5 col-lg-offset-0">
+					<h1>Hugo</h1>
+					<h2>Features & Specifications</h2>
+
+					<br>
+
+					<p><b>Seasonal colorful bicycle:</b><br>Bicycle cosmetic change according to fashion trends.</p>
+					<p><b>Safe without aesthetic compromise</b><br>Our bicycles are equipped with breaking system and both fixed gear and free wheel mode.</p>
+					<p><b>One couple, two dimensions</b><br>Two bicycles sizes that everyone can cycle on Hugo.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1">
+					<img src="img/shadow.png" class="img-responsive" style="margin: 30px 0px; mix-blend-mode: multiply;"/>
+				</div>
+			</div>	
+			<div class="row" id="specs">
+				<div class="col-xs-offset-2 col-sm-offset-1 col-lg-offset-0">
+					<!-- GENERAL -->
+					<div class="col-sm-3">
+						<h3>General</h3>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon1.png"/></div>
+							<div class="col-xs-9">
+								<b>Weight</b><br>9 Kilograms<br>20 Pounds
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon2.png"/></div>
+							<div class="col-xs-9">
+								<b>Sizes</b><br>170cm x 50cm x 100cm
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon3.png"/></div>
+							<div class="col-xs-9">
+								<b>Materials</b><br>Chromoly<br>Aluminum<br>Rubber
+							</div>
+						</div>
+					</div>
+
+					<!-- PARTS -->
+					<div class="col-sm-3">
+						<h3>Parts</h3>
+
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon4.png"/></div>
+							<div class="col-xs-9">
+								<b>Frame</b><br>9 Kilograms
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon5.png"/></div>
+							<div class="col-xs-9">
+								<b>ChainWheel</b><br>170 c
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon6.png"/></div>
+							<div class="col-xs-9">
+								<b>Pedals</b><br>170 c
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon7.png"/></div>
+							<div class="col-xs-9">
+								<b>Wheels</b><br>170 c
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon8.png"/></div>
+							<div class="col-xs-9">
+								<b>Frame</b><br>9 Kilograms
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon9.png"/></div>
+							<div class="col-xs-9">
+								<b>Stem</b><br>170 c
+							</div>
+						</div>
+					</div>
+
+					<!-- IN THE BOX -->
+					<div class="col-sm-3">
+						<h3>In the Box</h3>
+
+						<div class="row">
+							<div class="col-xs-3"><img src="img/icon10.png"/></div>
+							<div class="col-xs-9">
+								<b>Hugo Bicycle</b><br>9 Kilgorams<br>20 pounds
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-xs-3"></div>
+							<div class="col-xs-9">
+								<b>Sold Seaparately</b><br>170cm x 50cm x 100cm
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- SECTION 7 -->
+	<div id="section7" class="section">
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<div class="container-fluid section-container">
+			<div class="row">
+				<!-- title -->
+				<div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-xs-11 col-lg-offset-0">
+					<h1>Hugo</h1>
+					<h2 class="visible-lg">Features & Specifications</h2>
+				</div>
+			</div>
+			<div class="row">
+				<!-- image -->
+				<div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-lg-offset-1 col-sm-6 col-lg-7">
+					<img src="img/section7-bike.jpg" class="img-responsive">
+				</div>
+
+				<!-- select -->
+				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-1 col-sm-3">
+					<div class="row">
+						<div class="col-xs-6 col-sm-9">
+							<p>Select your color<br><img src="img/shadow.png" class="shadow-line img-responsive">
+								<ul class="colors">
+									<li class="celadon"><img src="img/celadonicon.png"/> Celadon</li>
+									<li class="mustard"><img src="img/mustardicon.png"/> Mustard</li>
+									<li class="coral"><img src="img/coralicon.png"/> Coral</li>
+									<li class="warmgrey"><img src="img/warmgreyicon.png"/> Warm Grey</li>
+								</ul>
+							</p>
+						</div>
+
+						<div class="col-xs-4 col-sm-9">
+							<p>Select your Size<br><img src="img/shadow.png" class="shadow-line img-responsive">
+								<ul class="sizes">
+									<li><img src="img/sizeLicon.png"/> Size: L</li>
+									<li><img src="img/sizeMicon.png"/> Size: M</li>
+								</ul>
+								<p class="visible-lg">
+									Quantity:
+									<button class="quantityBtn add">+</button>
+									<button class="quantityBtn">01</button>
+									<button class="quantityBtn add">-</button>
+									<img src="img/shadow.png" class="shadow-line img-responsive">
+								</p>
+								<button class="btn cartButton2"><img src="img/cart-gray.png" /> <span>Add to cart</span></button>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer id="footer" class="section">
+
+		<div class="section-top-shadow">
+			<img src="img/shadow.png" class="img-responsive"/>
+		</div>
+		<div class="container-fluid">
+			<div class="row visible-xs text-center" id="bottom-nav-bar">
+				<div class="col-xs-4">
+					<i class="fa fa-facebook fa"></i> WORLD
+				</div>
+				<div class="col-xs-4" style="display: table-cell; vertical-align: middle;">
+					<i class="fa fa-facebook fa"></i> SHOP NEAR BY
+				</div>
+				<div class="col-xs-4">
+					<i class="fa fa-facebook fa"></i> CART
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 col-lg-2 col-lg-offset-1">
+					<div class="navbar-text">
+						About NC Natural Cylce<br>Privacy Policy<br>Terms & Conditions<br>
+					</div>
+				</div>
+				<div class="col-sm-3 col-lg-2 hidden-xs">
+					<div class="navbar-text">Explore our World<br>
+						<a href="#"><img src="img/social1.png"/></a>
+						<a href="#"><img src="img/social2.png"/></a>
+						<a href="#"><img src="img/social3.png"/></a>
+						<a href="#"><img src="img/social4.png"/></a>
+						<a href="#"><img src="img/social5.png"/></a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-lg-3 hidden-xs">
+					<div class="navbar-text">
+						<div class="col-xs-1">
+							<i class="fa fa-map-marker fa-3x"></i>
+						</div>
+						<div class="col-xs-10">
+							<h4>Shop Near By</h4>Find a shop or a reseller near by your home.<br>
+							<a href="#">Start Searching</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 pull-right text-right small">
+					<div class="navbar-text">
+						(C) 2014 NC Natural Cycle. All Rights Reserved
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
