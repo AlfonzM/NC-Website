@@ -1,16 +1,16 @@
 <html>
 
 <head>
-	<title>My Website</title>
+	<title>NATURAL CYCLE</title>
 	<link href="mobility.css" type="text/css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script> 
+	<script src="js/bootstrap.min.js"></script> 
 </head>
 
 <body>
@@ -52,15 +52,15 @@
 
 				<div class="collapse navbar-collapse col-sm-offset-5 col-md-offset-6 col-lg-offset-7" id="navbarmenu">
 					<ul class="nav navbar-nav">
-						<li class="asd"><a href="#"><img src="img/logo-small.png"/> WORLD</a></li>
-						<li class="dropdown asd">
+						<li class="navbar-list-item"><a href="#"><img src="img/logo-small.png"/> WORLD</a></li>
+						<li class="dropdown navbar-list-item">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<!-- <li><a href="#">Product 1</a></li>
 								<li><a href="#">Product 2</a></li>
 								<li><a href="#">Product 3</a></li> -->
 							</ul>
-						<li  class="asd"><a href="#contact" data-toggle="modal"><img src="img/cart.png"/> CART</a></li>
+						<li  class="navbar-list-item"><a href="#contact" data-toggle="modal"><img src="img/cart.png"/> CART</a></li>
 						</li>
 						<li class="languages">
 							<a href="#">FR</a>
@@ -114,35 +114,145 @@
 		<div class="section-top-shadow">
 			<img src="img/shadow.png" class="img-responsive"/>
 		</div>
-		<!-- insert carousel -->
+		<!-- CAROUSEL -->
+		<div id="carousel">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/section2-1.jpg" />
+					</div>
+					<div class="item">
+						<img src="img/section2-1.jpg" />
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control carousel-arrows" href="#carousel-example-generic" role="button" data-slide="prev">
+					<img src="img/carousel-arrow.png"/>
+				</a>
+				<a class="right carousel-control carousel-arrows" href="#carousel-example-generic" role="button" data-slide="next">
+					<img src="img/carousel-arrow2.png"/>
+				</a>
+			</div>
+		</div>
 	</div>
 
 	<!-- SECTION 3 -->
 	<div id="section3" class="section">
+		<!-- CAROUSEL -->
+		<div id="carousel">
+			<div id="section3-carousel" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<!-- CAROUSEL ITEM 1 -->
+					<div class="item active">
+						<div class="container-fluid section-container">
+							<div class="row">
+								<div class="col-xs-offset-2 col-sm-offset-0">
+									<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike1.png" class="img-responsive" />
+								</div>
+
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike2.png" class="img-responsive" />
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- CAROUSEL ITEM 2 -->
+					<div class="item">
+						<div class="container-fluid section-container">
+							<div class="row">
+								<div class="col-xs-offset-2 col-sm-offset-0">
+									<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike1.png" class="img-responsive" />
+								</div>
+
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike2.png" class="img-responsive" />
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- CAROUSEL ITEM 3 -->
+					<div class="item">
+						<div class="container-fluid section-container">
+							<div class="row">
+								<div class="col-xs-offset-2 col-sm-offset-0">
+									<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike1.png" class="img-responsive" />
+								</div>
+
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike2.png" class="img-responsive" />
+								</div>
+							</div>
+						</div>	
+					</div>
+					<!-- CAROUSEL ITEM 4 -->
+					<div class="item">
+						<div class="container-fluid section-container">
+							<div class="row">
+								<div class="col-xs-offset-2 col-sm-offset-0">
+									<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike1.png" class="img-responsive" />
+								</div>
+
+								<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
+									<img src="img/section3-bike2.png" class="img-responsive" />
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control carousel-arrows" href="#section3-carousel" role="button" data-slide="prev">
+					<img src="img/carousel-arrow.png"/>
+				</a>
+				<a class="right carousel-control carousel-arrows" href="#section3-carousel" role="button" data-slide="next">
+					<img src="img/carousel-arrow2.png"/>
+				</a>
+
+				<!-- Indicators -->
+				<div id="color-indicators">
+					<ol class="carousel-indicators" style="">
+						<li data-target="#section3-carousel" id="indicator-1" data-slide-to="0" class="active"></li>
+						<li data-target="#section3-carousel" id="indicator-2" data-slide-to="1"></li>
+						<li data-target="#section3-carousel" id="indicator-3" data-slide-to="2"></li>
+						<li data-target="#section3-carousel" id="indicator-4" data-slide-to="3"></li>
+					</ol>
+				</div>
+
+			</div>
+		</div>
 		<div class="section-top-shadow">
 			<img src="img/shadow.png" class="img-responsive"/>
 		</div>
-		<div class="container-fluid section-container">
-			<div class="row">
-				<div class="col-xs-offset-2 col-sm-offset-0">
-					<h1>Hugo</h1><h2>&nbsp;Celadon</h2>
-				</div>
-			</div>
-			<div class="row">
-				<!-- bike size L -->
-				<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
-					<img src="img/section3-bike1.png" class="img-responsive" />
-				</div>
-				<!-- bike size M -->
-				<div class="bikeColumn col-xs-offset-2 col-xs-8 col-sm-8 col-lg-6 col-sm-offset-2 col-lg-offset-0">
-					<img src="img/section3-bike2.png" class="img-responsive" />
-				</div>
-			</div>
-
-			<div class="row text-center">
-				<img src="img/section3-buttons.png" />
-			</div>
-		</div>	
+		
 	</div>
 
 	<!-- SECTION 4 -->
@@ -155,15 +265,22 @@
 							<h1>Hugo</h1>
 							<h2>Details</h2>
 						</div>
+
 						<div class="col-xs-6 col-sm-5 tile" id="tile2">
-							<div class="overlay-text">
+							<button class="overlay-text visible-xs" type="button" data-toggle="modal" data-target="#myModal">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</button>
+							<div class="overlay-text hidden-xs">
 								One sentence details. Lorem ipsum dolor sit amet.
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-12 tile" id="tile3">
-							<div class="overlay-text">
+							<button class="overlay-text visible-xs" type="button" data-toggle="modal" data-target="#myModal">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</button>
+							<div class="overlay-text hidden-xs">
 								One sentence details. Lorem ipsum dolor sit amet.
 							</div>
 						</div>
@@ -173,20 +290,29 @@
 					<div class="row">
 						<div class="col-xs-5">
 							<div class="row tile" id="tile4">
-								<div class="overlay-text">
+								<button class="overlay-text visible-xs" type="button" data-toggle="modal" data-target="#myModal">
+									One sentence details. Lorem ipsum dolor sit amet.
+								</button>
+								<div class="overlay-text hidden-xs">
 									One sentence details. Lorem ipsum dolor sit amet.
 								</div>
 							</div>
 							<div class="row tile" id="tile5">
-								<div class="overlay-text">
+								<button class="overlay-text visible-xs" type="button" data-toggle="modal" data-target="#myModal">
+									One sentence details. Lorem ipsum dolor sit amet.
+								</button>
+								<div class="overlay-text hidden-xs">
 									One sentence details. Lorem ipsum dolor sit amet.
 								</div>
 							</div>
 						</div>
 						<div class="col-xs-7" style="background-color: #999;" id="tile6">
-								<div class="overlay-text">
-									One sentence details. Lorem ipsum dolor sit amet.
-								</div>
+							<button class="overlay-text visible-xs" type="button" data-toggle="modal" data-target="#myModal">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</button>
+							<div class="overlay-text hidden-xs">
+								One sentence details. Lorem ipsum dolor sit amet.
+							</div>
 						</div>
 					</div>
 				</div>
@@ -199,9 +325,9 @@
 	</div>
 
 	<!-- SECTION 5 -->
-	<div id="section5" class="section">
-		<!-- <div class="col-xs-6 left"></div> -->
-		<div class="col-xs-offset-7 col-sm-5 col-lg-6 col-lg-offset-6 right">
+	<div id="section5" class="section" style="display: table; width: 100%;">
+		<div class="col-xs-6 left"></div>
+		<div class="col-xs-offset-7 col-xs-5 col-lg-6 col-lg-offset-6 right" style="position: relative">
 			<div class="col-xs-11 col-xs-offset-1">
 				<h1>Hugo</h1>
 				<h2>Designed in<br/>France</h2>
@@ -209,7 +335,6 @@
 				<p>Safe without aesthetic compromise<br>Our bicycles are equipped with breaking system and both fixed gear and free wheel mode.</p>
 				<p>One couple, two dimensions<br>Two bicycle sizes that everyone can cycle on Hugo.</p>
 			</div>
-
 		</div>
 		<div class="section-top-shadow">
 			<img src="img/shadow.png" class="img-responsive"/>
@@ -394,24 +519,38 @@
 			<img src="img/shadow.png" class="img-responsive"/>
 		</div>
 		<div class="container-fluid">
+			<!-- MOBILE MENU -->
 			<div class="row visible-xs text-center" id="bottom-nav-bar">
-				<div class="col-xs-4">
-					<i class="fa fa-square fa-lg"></i> WORLD
+				<div class="col-xs-4 navbar-item">
+					<div class="navbar-text">
+						<img src="img/logo-small.png"/> WORLD
+					</div>
 				</div>
-				<div class="col-xs-4" style="display: table-cell; vertical-align: middle;">
-					<i class="fa fa-square fa-lg"></i> SHOP NEAR BY
+				<div class="col-xs-4 navbar-item shop">
+					<div class="navbar-text">
+						<div class="left">
+							<img src="img/mapmarker.png" class="img-responsive"/>
+						</div>
+						<div class="right">
+							SHOP NEAR BY
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-4">
-					<i class="fa fa-square fa-lg"></i> CART
+				<div class="col-xs-4 navbar-item">
+					<div class="navbar-text">
+						<img src="img/cart-gray2.png"/> CART
+					</div>
 				</div>
 			</div>
+
+			<!-- DEFAULT MENU -->
 			<div class="row">
 				<div class="col-sm-3 col-lg-2 col-lg-offset-1">
 					<div class="navbar-text">
 						About NC Natural Cylce<br>Privacy Policy<br>Terms & Conditions<br>
 					</div>
 				</div>
-				<div class="col-sm-3 col-lg-2 hidden-xs">
+				<div class="col-sm-3 col-lg-2 hidden-xs" id="social-media-icons">
 					<div class="navbar-text">Explore our World<br>
 						<a href="#"><img src="img/social1.png"/></a>
 						<a href="#"><img src="img/social2.png"/></a>
@@ -422,10 +561,10 @@
 				</div>
 				<div class="col-sm-3 col-lg-3 hidden-xs">
 					<div class="navbar-text">
-						<div class="col-xs-1">
-							<i class="fa fa-map-marker fa-3x"></i>
+						<div class="left">
+							<img src="img/mapmarker.png" class="img-responsive"/>
 						</div>
-						<div class="col-xs-10">
+						<div class="right">
 							<h4>Shop Near By</h4>Find a shop or a reseller near by your home.<br>
 							<a href="#">Start Searching</a>
 						</div>
@@ -439,6 +578,17 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- MODAL -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog popup modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <h1>One sentence details lorem ipsum dolor sit amet.</h1>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </body>
 
 </html>
