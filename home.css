@@ -255,6 +255,7 @@ b{
 	background-size: cover;
 }
 
+
 /* FOOTER */
 footer#footer{
 	color: #9f9086;
@@ -276,12 +277,33 @@ footer#footer a{
 	border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
-#bottom-nav-bar div{
-	border-left: 1px solid #9f9086;
+#bottom-nav-bar .navbar-item{
 	letter-spacing: 1px;
 }
 
+#bottom-nav-bar .navbar-item.shop{
+	border-left: 1px solid #9f9086;
+	border-right: 1px solid #9f9086;
+}
+
 footer img{
+	max-width: 50px;
+}
+
+footer #social-media-icons img{
 	max-width: 30px;
 }
 
+footer .navbar-text .left{
+	float:left;
+	/*width: ;*/
+	width: 50px;
+	/*background-color: yellow;*/
+}
+
+footer .navbar-text .right{
+	display: block;
+	overflow: hidden;
+	text-align: left;
+	/*background-color: red;*/
+}

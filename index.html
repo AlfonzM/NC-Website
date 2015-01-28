@@ -9,8 +9,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script> 
 	<script src="js/bootstrap.min.js"></script> 
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -180,30 +181,44 @@
 	</div>
 
 	<!-- FOOTER -->
-	<footer id="footer" class="section">
+	<footer id="footer">
 
 		<div class="section-top-shadow">
 			<img src="img/shadow.png" class="img-responsive"/>
 		</div>
 		<div class="container-fluid">
+			<!-- MOBILE MENU -->
 			<div class="row visible-xs text-center" id="bottom-nav-bar">
-				<div class="col-xs-4">
-					<i class="fa fa-square fa-lg"></i> WORLD
+				<div class="col-xs-4 navbar-item">
+					<div class="navbar-text">
+						<img src="img/logo-small.png"/> WORLD
+					</div>
 				</div>
-				<div class="col-xs-4" style="display: table-cell; vertical-align: middle;">
-					<i class="fa fa-square fa-lg"></i> SHOP NEAR BY
+				<div class="col-xs-4 navbar-item shop">
+					<div class="navbar-text">
+						<div class="left">
+							<img src="img/mapmarker.png" class="img-responsive"/>
+						</div>
+						<div class="right">
+							SHOP NEAR BY
+						</div>
+					</div>
 				</div>
-				<div class="col-xs-4">
-					<i class="fa fa-square fa-lg"></i> CART
+				<div class="col-xs-4 navbar-item">
+					<div class="navbar-text">
+						<img src="img/cart-gray2.png"/> CART
+					</div>
 				</div>
 			</div>
+
+			<!-- DEFAULT MENU -->
 			<div class="row">
 				<div class="col-sm-3 col-lg-2 col-lg-offset-1">
 					<div class="navbar-text">
 						About NC Natural Cylce<br>Privacy Policy<br>Terms & Conditions<br>
 					</div>
 				</div>
-				<div class="col-sm-3 col-lg-2 hidden-xs">
+				<div class="col-sm-3 col-lg-2 hidden-xs" id="social-media-icons">
 					<div class="navbar-text">Explore our World<br>
 						<a href="#"><img src="img/social1.png"/></a>
 						<a href="#"><img src="img/social2.png"/></a>
@@ -214,10 +229,10 @@
 				</div>
 				<div class="col-sm-3 col-lg-3 hidden-xs">
 					<div class="navbar-text">
-						<div class="col-xs-1">
-							<i class="fa fa-map-marker fa-3x"></i>
+						<div class="left">
+							<img src="img/mapmarker.png" class="img-responsive"/>
 						</div>
-						<div class="col-xs-10">
+						<div class="right">
 							<h4>Shop Near By</h4>Find a shop or a reseller near by your home.<br>
 							<a href="#">Start Searching</a>
 						</div>
